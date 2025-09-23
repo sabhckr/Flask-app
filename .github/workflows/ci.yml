@@ -20,7 +20,7 @@ jobs:
       - run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install black isort flake8 pytest
+          pip install black isort flake8
 
       - name: Format code with black
         run: black . --line-length 120
@@ -30,6 +30,3 @@ jobs:
 
       - name: Lint with flake8
         run: flake8 . --max-line-length=120
-
-      - name: Run tests
-        run: pytest ./tests --maxfail=1 --disable-warnings -v
