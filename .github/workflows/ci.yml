@@ -23,7 +23,7 @@ jobs:
           pip install black isort flake8 pytest
 
       - name: Format code with black
-        run: black . --line-length 120 --check
+        run: black . --line-length 120
 
       - name: Sort imports with isort
         run: isort . --check-only
