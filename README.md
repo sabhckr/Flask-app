@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # Flask-App DevOps Portfolio
 
 This is my DevOps project using Flask. It shows real skills in building, deploying, and managing apps.
