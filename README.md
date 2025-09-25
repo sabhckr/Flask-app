@@ -34,19 +34,19 @@ This is my DevOps project using Flask. It shows real skills in building, deployi
 ## ⚡ Setup / Run Locally
 
 1. **Clone the repo:**
-\`\`\`bash
+\`\`\`
 git clone https://github.com/sabhckr/Flask-app.git
 cd Flask-app
 \`\`\`
 
 2. **Set environment variables:**
-\`\`\`bash
+
 cp .env.example .env
 # Edit .env as needed
-\`\`\`
+
 
 3. **Run with Docker:**
-\`\`\`bash
+\`\`\`
 docker-compose up --build
 \`\`\`
 
