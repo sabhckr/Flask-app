@@ -63,16 +63,16 @@ http://localhost:5000
 
 Flask-app/
 │
-├── app/                  # Main Flask application
+├── app/                  
 │   ├── **init**.py
 │   ├── routes.py
 │   └── ...
-├── Dockerfile            # Docker image build instructions
-├── docker-compose.yaml   # Docker Compose setup
-├── .env.example          # Example environment variables
-├── README.md             # This file
+├── Dockerfile            
+├── docker-compose.yaml   
+├── .env.example          
+├── README.md            
 └── .github/
-└── workflows/        # CI/CD workflows
+└── workflows/
 
 ```
 
