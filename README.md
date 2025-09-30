@@ -1,11 +1,11 @@
-# Flask App - DevOps Practice
+# Flask App - DevOps Demo
 
-A small Flask web app demonstrating hands-on DevOps and web development skills. Built for learning, testing, and feedback from professionals.
+This is a simple Flask app built to demonstrate practical DevOps and web development skills. Clean, minimal, and ready for testing and learning.
 
 ## Features
-- Flask backend
-- Dockerized setup
-- Simple UI for testing
+- Flask backend with simple interface
+- Dockerized for easy setup
+- Suitable for CI/CD and basic security practice
 
 ## Run
 ```bash
